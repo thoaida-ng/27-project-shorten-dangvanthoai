@@ -13,4 +13,4 @@
 - Nhập lệnh vào terminal: d:\reactapp> npm start
 - thay thế file src trong reactapp bằng src trong git
 
-# Họ và tên: Đặng Văn Thoại chịu trách nhiệm hết app
+# Họ và tên: Đặng Văn Thoại chịu trách nhiệm toàn bộ quá trình tạo app
