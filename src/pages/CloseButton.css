@@ -1,0 +1,15 @@
+.close-button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .close-icon {
+    font-weight: bold;
+    appearance: right;
+    color: brown;
+  }

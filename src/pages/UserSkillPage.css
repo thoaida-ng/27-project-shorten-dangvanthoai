@@ -1,0 +1,39 @@
+.user-skill-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .user-skill-form h2 {
+    margin-bottom: 15px;
+  }
+  
+  .user-skill-form label {
+    display: inline-block; /* Cho phép label và input nằm cùng dòng */
+    margin-bottom: 5px;
+  }
+  
+  .user-skill-form input[type="checkbox"] {
+    margin-right: 10px; 
+    vertical-align: middle;
+  }
+  
+  .user-skill-form button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+  }
+  
+  .user-skill-form button[type="submit"]:hover {
+    background-color: #45a049;
+  }
