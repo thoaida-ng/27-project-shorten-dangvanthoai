@@ -6,7 +6,7 @@ from functools import wraps
  
 app = Flask(__name__)
  
-app.config['SECRET_KEY'] = 'thoaidang-1234567890'
+app.config['SECRET_KEY'] = '...'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///flaskdb.db'
 app.config['SESSION_PERMANENT'] = False
 app.config['SESSION_TYPE'] = 'filesystem'
@@ -177,4 +177,5 @@ def add_skill():
 
 
 if __name__ == "__main__":
+
     app.run(debug=True)
